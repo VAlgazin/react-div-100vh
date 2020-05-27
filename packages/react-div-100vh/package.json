@@ -3,15 +3,15 @@
   "version": "0.4.0",
   "description": "Aiming to solve the '100vh' issue in mobile browsers",
   "license": "MIT",
-  "main": "dist/lib.js",
-  "types": "dist/lib.d.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "build": "tsc -b"
   },
-  "peerDependencies": {
-    "react": ">=16.8"
-  },
+  "peerDependencies": {},
   "devDependencies": {
+    "@types/react": "^16.9.35",
+    "react": "^16.13.1",
     "typescript": "^3.9.2"
   },
   "author": "Mikhail Vasin",

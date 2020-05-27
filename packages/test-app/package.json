@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "test-app",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -12,7 +12,12 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serve": "^11.3.1",
     "typescript": "^3.9.2"
   }
 }
